@@ -6,8 +6,8 @@ type ProfileCardProps = {
 
 const ProfileCard = () => {
   const nama = "Super Dede";
-  const alamat = "Bandung";
-  const hobi = "Bermain Gitar";
+  const alamat = "Kampung Durian Runtuh";
+  const hobi = "Makan, Tidur";
 
   return (
     <div className="card">
@@ -15,7 +15,10 @@ const ProfileCard = () => {
       <p>Alamat: {alamat}</p>
       <p>Hobi: {hobi}</p>
     </div>
+
   );
 };
+
+
 
 export default ProfileCard;
